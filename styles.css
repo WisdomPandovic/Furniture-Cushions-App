@@ -447,6 +447,9 @@ font-size: 30px;
     display: block;
     color: black;
     }
+    .hamburger_container p {
+        display: block;
+    }
 
   .main-section {
     display: grid;

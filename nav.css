@@ -124,6 +124,7 @@ display: none;
     padding: 30px 10px;
     display: none;
     }
+
 .hide_nav_container{
 display: none;
 height: 70vh;
@@ -193,6 +194,11 @@ input:checked ~ .hide_nav_container {
 display: block;
 color: black;
 }
+
+.hamburger_container p {
+    display: block;
+}
+
     
     .furniture-list {
     display: grid;
