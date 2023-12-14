@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <title>Furniture & Cushions</title>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="your-logo.png" alt="Furniture & Cushions Logo">
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="furniture.html">Furniture</a></li>
+                <li><a href="cushion.html">Cushions</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="#" class="cart-link"><i class="fas fa-shopping-cart"></i></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="hamburger_container flex">
+        <div><p>Furniture & Curshion</p></div>
+        <label for="menu_check">&#9776;</label>
+        <input type="checkbox" id="menu_check">
+        <div class="hide_nav_container">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="furniture.html">Furniture</a></li>
+                    <li><a href="cushion.html">Cushions</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="#" class="cart-link"><i class="fas fa-shopping-cart"></i></a></li>
+                </ul>
+            </nav>
+        </div>
+    </div><hr>
+
+    <section class="main-section">
+        <div class="text-section">
+            <h2>The best choice</h2>
+            <h2>for your</h2>
+            <h2>convenience</h2>
+            <p>Welcome to Furniture & Cushions. Discover a wide range of high-quality furniture and comfortable cushions for your home.</p>
+            <button>Get Started</button>
+            <div class="grid-3">
+                <div>
+                    <h3>200+</h3>
+                    <p>Happy company</p>
+                </div>
+                <div>
+                    <h3>200+</h3>
+                    <p>Happy company</p>
+                </div>
+                <div>
+                    <h3>200+</h3>
+                    <p>Happy company</p>
+                </div>
+            </div>
+        </div>
+        <div class="image-slider">
+            <div class="slider-container">
+                <img src="./images/cushion-slider-image (3).webp" alt="Slider Image 1" style="width: 100%;">
+                <img src="./images/cushion-slider-image (1).webp" alt="Slider Image 2" style="width: 100%;">
+                <img src="./images/cushion-slider-image (2).webp" alt="Slider Image 3" style="width: 100%;">
+            </div>
+            <div class="slider-arrows">
+                <div class="arrow left-arrow" onclick="prevSlide()">&#9664;</div>
+                <div class="arrow right-arrow" onclick="nextSlide()">&#9654;</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bk-black">
+       <div class="pd">
+        <p class="pd-p">Feature</p>
+        <h3>What do we give you?</h3>
+        <div class="flexs">
+            <div>
+                <h2>-Free Shipping</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero dolore corrupti veniam. Natus itaque facilis nihil ratione sunt eaque ex quo voluptatum expedita doloribus asperiores, quasi saepe possimus quas cum.</p>
+            </div>
+            <div>
+                <h2>-Best Price</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero dolore corrupti veniam. Natus itaque facilis nihil ratione sunt eaque ex quo voluptatum expedita doloribus asperiores, quasi saepe possimus quas cum.</p>
+            </div>
+            <div>
+                <h2>+7 Years warranty</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero dolore corrupti veniam. Natus itaque facilis nihil ratione sunt eaque ex quo voluptatum expedita doloribus asperiores, quasi saepe possimus quas cum.</p>
+            </div>
+        </div>
+       </div>
+    </section>
+
+<section class="auto-main-section">
+    <div class="auto-image-slider">
+        <div class="auto-slider-container">
+            <img src="./images/auto-slider-image (3).webp" alt="Slider Image 1">
+            <img src="./images/auto-slider-image (2).webp" alt="Slider Image 2">
+            <img src="./images/auto-slider-image (1).webp" alt="Slider Image 3">
+        </div>
+    </div>
+    <div class="auto-slider-text-section">
+        <h2>Categories</h2>
+        <div class="auto-slide-text-h3">
+            <h3>Our best</h3>
+            <h3>recommendation</h3>
+        </div>
+        <div class="bck-black">
+            <h2>Living Room</h2>
+            <p>Explore our latest collection of high-quality furniture and cushions for your home. Discover comfort and style.</p>
+        </div>
+        <!-- <a href="#">Shop Now</a> -->
+        <div class="auto-text-p">
+            <p>Private Workspace</p>
+            <p>Gaming Room</p>
+            <p>Gaming Room</p>
+        </div>
+    </div>
+</section>
+
+<section class="product-section-bk">
+    <div class="product-section">
+    <div class="product-description">
+        <p>Our Product </p>
+        <h2>Welcome to our product section!</h2>
+    </div>
+    <div class="product-list flex">
+        <h3 onclick="showProduct('product1')">Popular</h3>
+        <h3 onclick="showProduct('product2')">All Product</h3>
+        <h3 onclick="showProduct('product3')">Table</h3>
+        <h3 onclick="showProduct('product4')">  Chair</h3>
+    </div>
+    <div class="product product1">
+        <div class="details ">
+            <img src="./images/modern-curshion (1)" alt="Slider Image 1">
+            <img src="./images/modern-curshion (2)" alt="Slider Image 2">
+            <img src="./images/modern-curshion (3)" alt="Slider Image 3">
+            <img src="./images/modern-curshion (4)" alt="Slider Image 3">
+        </div>
+    </div>
+    <div class="product product2">
+
+        <div class="details">
+            <img src="./images/all-product-img (1).webp" alt="Slider Image 1">
+            <img src="./images/all-product-img (2).webp" alt="Slider Image 2">
+            <img src="./images/all-product-img (3).webp" alt="Slider Image 3">
+            <img src="./images/all-product-img (4).webp" alt="Slider Image 3">
+        </div>
+    </div>
+    <div class="product product3">
+
+        <div class="details">
+            <img src="./images/table 5" alt="Slider Image 1">
+            <img src="./images/table 4" alt="Slider Image 2">
+            <img src="./images/table 2" alt="Slider Image 3">
+            <img src="./images/table" alt="Slider Image 3">
+        </div>
+    </div>
+    <div class="product product4">
+
+        <div class="details">
+            <img src="./images/chair" alt="Slider Image 1">
+            <img src="./images/chair 2" alt="Slider Image 2">
+            <img src="./images/chair 3" alt="Slider Image 3">
+            <img src="./images/chair 4" alt="Slider Image 3">
+        </div>
+    </div>
+    <!-- <a href="#your-link" class="button">Explore</a> -->
+    </div>
+</section>
+
+<section class="background-section">
+    <div class="overlay">
+        <h2>Get Discount For Membership</h2>
+        <p>Every new membership will get a Description of the section goes here. </p>
+        <a href="#your-link" class="button">Explore</a>
+    </div>
+</section>
+
+<div class="section">
+    <div class="text-center">
+        <h3>OUR PARTNERS</h3>
+        <p>We are proud to collaborate with esteemed organizations, institutions, and individuals who share our vision
+             of fostering education and empowering students. Together, we work towards creating a brighter future for
+              aspiring scholars. Our partners play a crucial role in supporting our mission and expanding the horizons 
+              of educational opportunities.
+        </p>
+    </div>
+
+    <div class=" partner-img">
+        <div><img src="./images/brand2.png.webp" alt="Student Image"></div>
+        <div><img src="./images/brand1.png.webp" alt="Student Image"></div>
+        <div><img src="./images/brand3.png.webp" alt="Student Image"></div>
+        <div><img src="./images/brand4.png.webp" alt="Student Image"></div>
+    </div>
+
+    
+</div>
+
+<footer>
+    <div class="footer-logo">
+        <img src="your-logo.png" alt="Furniture & Cushions Logo">
+        <div class="footer-text">
+            <p>Providing comfort and style is our priorty since 2005 to satisfy our customers and we provide all the
+                furniture that you can easily and quickly
+            </p>
+            <h2 class="none">&copy; 2023 Furniture & Cushions</h2>
+        </div>
+    </div>
+
+    <div class="news-signup">
+        <h3>Sign Up for News Letter</h3>
+        <div class="block">
+            <input type="email" class="signup-input" placeholder="Enter your email address">
+            <button type="submit" class="signup-button">Subscribe</button>
+            
+        </div><hr>
+        <div class="footer-links">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+            <a href="#">Contact Us</a>
+        </div>
+    </div>
+    <div class="footer-tc">
+        <h2 class=" text-center">&copy; 2023 Furniture & Cushions</h2>
+        <p class=" text-center">Developed & Maintained by Panda</p>
+    </div>
+  
+</footer>
+
+    <script src="script.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            // Show the details of Product 1 by default
+            showProduct('product1');
+        });
+    
+        function showProduct(productId) {
+            // Hide details for all products
+            const products = document.querySelectorAll('.product');
+            products.forEach(product => {
+                if (product.classList.contains('active') && !product.classList.contains(productId)) {
+                    // Hide details of other active products
+                    product.classList.remove('active');
+                }
+            });
+    
+            // Toggle the active class for the clicked product
+            const clickedProduct = document.querySelector(`.${productId}`);
+            if (clickedProduct) {
+                clickedProduct.classList.toggle('active');
+            }
+        } 
+    </script>
+
+
+    
+</body>
+</html>

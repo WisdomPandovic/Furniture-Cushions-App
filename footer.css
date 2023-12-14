@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 70px;
+    margin-top: 50px;
+    background-color: #1E1E1E;
+    color: #FFFFFF;
+    padding: 40px;
+}
+
+.footer-logo {
+    text-align: left;
+    padding: 40px 0px;
+}
+
+.footer-logo img {
+    max-width: 100%;
+    height: auto;
+}
+
+.footer-text p {
+    margin: 40px 0px 80px;
+    line-height: 1.8;
+}
+
+.footer-text h2 {
+    margin: 80px 0px 10px;
+font-size: 20px;
+}
+
+.news-signup {
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    padding: 40px 0px;
+}
+
+.news-signup h3{
+    margin: 0px 0px 30px;
+}
+
+.news-signup hr{
+    width: 350px;
+    margin-top: 10px;
+    margin-bottom: 60px;
+}
+
+.signup-input {
+    width: 100%;
+    max-width: 250px; 
+    margin-top: 10px;
+    padding: 8px;
+    border: none;
+    background-color: #1E1E1E;
+    color: #fff;
+}
+
+.signup-button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #FFFFFF;
+    color: #1E1E1E;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.footer-links {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    text-align: center;
+    padding: 8px;
+    background-color: #eee;
+    border-radius: 5px;
+}
+
+.footer-tc{
+    display: none;
+}
+
+@media (max-width: 768px) {
+    footer {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .footer-links {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+        margin-top: 20px;
+    }
+
+    .footer-tc{
+        display: contents;
+    }
+
+    .text-center{
+        text-align: center !important;
+        font-size: 15px;
+    }
+
+    .none{
+        display: none;
+    }
+
+    .footer-links a {
+        color: #fff;
+        background-color: #1E1E1E;
+    }
+
+    .news-signup h3 {
+        text-align: center;
+    }
+
+    .footer-text p {
+        margin: 40px 0px 0px;
+        line-height: 1.8;
+    }
+    .signup-button {
+        background-color: #3498db;
+        color: #fff;
+        width: 100%; 
+    }
+
+    .news-signup hr{
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 60px;
+    } 
+}
